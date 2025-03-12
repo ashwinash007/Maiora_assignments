@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+</head>
+<body>
+    <h1>Fetched Jokes</h1>
+    <ul>
+        {% for joke in jokes %}
+            <li>{{ joke }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
